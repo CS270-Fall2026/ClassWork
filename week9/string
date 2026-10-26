@@ -1,0 +1,10 @@
+#!/bin/bash
+
+name=Ekaterina
+#print the third letter
+echo ${name:$(( ${#name} -1 )):1} #${var:offset:lenght}
+#TODO
+#print "kate"
+
+#Print the last letter Hint: use the length of the word
+echo $(( ${#name} -1 ))
